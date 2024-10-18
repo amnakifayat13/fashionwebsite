@@ -2,26 +2,103 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.main{
+  background: #c2efd4;
+}
+.header{
+  background:#c2efd4;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.logo{
+  margin: 40px;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-left: 200px;
+  color:#224f34;
+}
+.right-side{
+  display: flex;
+  gap: 70px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.routing{
+  display: flex;
+  gap: 40px;
+  margin: 40px;
+  font-size: 24px;
+  margin-right: 300px;
+  color: #224f34;
+}
+.login{
+  display: flex;
+  gap: 60px;
+  margin: 40px;
+  margin-right: 200px;
+  color: #224f34;
+}
+.login-btn{
+  font-size: 24px;
+  border: 2px solid #224f34;
+  padding: 10px 30px;
+  cursor: pointer;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.logo:hover{
+  background: #224f34;
+  color: #c2efd4;
+ 
+}
+.routing li:hover{
+  background: #224f34;
+  color: #c2efd4;
+}
+.login-btn:hover{
+  background: #224f34;
+  color: #c2efd4;
+}
+.explore{
+  font-size: 24px;
+  background:  #224f34;
+  padding: 10px 50px ;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 10px;
+  color:#c2efd4;
+
+}
+.img1{
+  background: #93b9a2;
+}
+
+.img2{
+  background: #a9d4ba;
+}
+.img3{
+  background: #cadcd0;
+}
+
+.img8{
+  background: #cadcd0;
+}
+
+.img5{
+  background:#eaebf0;
+}
+
+.buy-btn{
+  background: #224f34;
+  color: #93b9a2;
+  width: 235px;
+  height: 74px;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 38px;
+}
+.img13{
+  background: #93b9a2;
 }
