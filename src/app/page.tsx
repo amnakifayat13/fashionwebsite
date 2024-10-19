@@ -120,26 +120,37 @@ export default function Home() {
       <div className="bg-gray-100 w-96 h-72 ml-6" >
         <div className="text-4xl text-green-950 mt-6 ml-4 "><p>"</p></div>
         <div className="text-2xl text-green-950 mt-6 ml-4"><p>Emily Wilson</p></div>
-        <div className=" text-green-950 mt-6 ml-4">The customer experience was exceptional from<br/>start to finish. The website is user-friendly,the<br/>
+        <div className=" text-green-950 mt-6 ml-4"><p>
+        The customer experience was exceptional from<br/>start to finish. The website is user-friendly,the<br/>
         checkout process was smooth,and the clothes <br/>I orderd fit perfectly. I am beyond satisfied.
+        </p>
         </div>
       </div>
       <div className="bg-green-200 w-96 h-72">
         <div className="text-4xl text-green-950 mt-6 ml-4"><p>"</p></div>
         <div className="text-2xl text-green-950 mt-6 ml-4"><p>Sarah Thomas</p></div>
-        <div className=" text-green-950 mt-6 ml-4">The customer experience was exceptional from<br/>start to finish. The website is user-friendly,the<br/>
-        checkout process was smooth,and the clothes <br/>I orderd fit perfectly. I am beyond satisfied.
+        <div className=" text-green-950 mt-6 ml-4"><p>I absolutely love the quality and style of the <br/>clothing I purchased from this website.Customer<br/>
+        service was outstanding, and I receieved my order<br/>
+        quickly. Highly recommended.
+        </p>
         </div>
       </div>
       <div className="bg-gray-100 w-96 h-72">
         <div className="text-4xl text-green-950 mt-6 ml-4 " ><p>"</p></div>
         <div className="text-2xl text-green-950 mt-6 ml-4"><p>Olivia Martinez</p></div>
-        <div className=" text-green-950 mt-6 ml-4">The customer experience was exceptional from<br/>start to finish. The website is user-friendly,the<br/>
-        checkout process was smooth,and the clothes <br/>I orderd fit perfectly. I am beyond satisfied.
+        <div className=" text-green-950 mt-6 ml-4"><p>I had a great experience shoping on this<br/> 
+        website. The clothes I bought are fashionable<br/> and comfortable. Highly satisfied.
+        </p>
         </div>
       </div>
+      
 
     </div>
+    <div className="flex justify-center mt-32">
+        <Image src="/leftarrow.png" alt="" width={150} height={150}/>
+        <Image src="/rightarrow.png" alt="" width={150} height={150}/>
+      </div>
+   
 
 
     </div>

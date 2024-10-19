@@ -102,3 +102,56 @@
 .img13{
   background: #93b9a2;
 }
+.footer{
+  background: #224f34;
+  width: 100%;
+  height: auto;
+}
+.color{
+  color:#c2efd4;
+}
+#email{
+  width: 100%;
+  padding: 20px;
+  padding-right: 60px;
+  margin-bottom: 20px;
+  border: 1px solid #c2efd4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #224f34;
+  text-decoration: none;
+  text-align: center;
+  text-rendering: auto;
+  font-size: 20px;
+}
+
+#submit{
+  width: 100%;
+  padding: 21px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #c2efd4;
+  text-decoration: none;
+  text-align: center;
+  text-rendering: auto;
+  font-size: 20px;
+  color: #224f34;
+  margin-left: 0;
+
+}
+.line{
+  width: 70%;
+  height: 2px;
+  background:#c2efd4;
+  margin-top: 12px;
+  margin-left: 70px;
+}
+
+.footerend{
+  margin-left: 40px;
+  margin-bottom: 40px;
+  color:#c2efd4 ;
+  font-size: 20px;
+}
