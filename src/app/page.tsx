@@ -232,7 +232,7 @@ export default function Home() {
 
   <div className="mb-10 bg-gray-100 sm:bg-gray-100 p-6 w-full lg:w-96 h-auto lg:h-72 mx-auto lg:ml-6">
     <div className="text-3xl lg:text-4xl text-green-950">
-      <p>"</p>
+      <p>&#34;</p>
     </div>
     <div className="text-xl lg:text-2xl text-green-950 mt-4 lg:mt-6">
       <p>Emily Wilson</p>
@@ -247,7 +247,7 @@ export default function Home() {
   
   <div className="mb-10 bg-green-200 sm:bg-green-200 p-6 w-full lg:w-96 h-auto lg:h-72 mx-auto">
     <div className="text-3xl lg:text-4xl text-green-950">
-      <p>"</p>
+      <p>&#34;</p>
     </div>
     <div className="text-xl lg:text-2xl text-green-950 mt-4 lg:mt-6">
       <p>Sarah Thomas</p>
@@ -262,7 +262,7 @@ export default function Home() {
 
   <div className="mb-10 bg-gray-100 sm:bg-gray-100 p-6 w-full lg:w-96 h-auto lg:h-72 mx-auto">
     <div className="text-3xl lg:text-4xl text-green-950">
-      <p>"</p>
+      <p>&#34;</p>
     </div>
     <div className="text-xl lg:text-2xl text-green-950 mt-4 lg:mt-6">
       <p>Olivia Martinez</p>
