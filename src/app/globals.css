@@ -10,11 +10,12 @@
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+  
 }
 
 .logo{
   margin: 40px;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bolder;
   margin-left: 200px;
   color:#224f34;
@@ -28,7 +29,7 @@
   display: flex;
   gap: 40px;
   margin: 40px;
-  font-size: 24px;
+  font-size: 30px;
   margin-right: 300px;
   color: #224f34;
 }
@@ -40,7 +41,7 @@
   color: #224f34;
 }
 .login-btn{
-  font-size: 24px;
+  font-size: 30px;
   border: 2px solid #224f34;
   padding: 10px 30px;
   cursor: pointer;
@@ -60,7 +61,7 @@
   color: #c2efd4;
 }
 .explore{
-  font-size: 24px;
+  font-size: 36px;
   background:  #224f34;
   padding: 10px 50px ;
   cursor: pointer;
@@ -107,8 +108,48 @@
   width: 100%;
   height: auto;
 }
-.color{
-  color:#c2efd4;
+.footermain{
+  color: #c2efd4;
+  display: flex;
+}
+ .personal{
+  margin-left: 300px;
+  margin-top: 40px;
+
+}
+.shop{
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.company{
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.update{
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.name{
+  font-size: 60px;
+  font-weight: bold;
+}
+.social{
+  font-size: 30px;
+}
+.icons{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.shopname{
+  font-size: 30px;
+  font-weight: bold;
+  
+
+}
+.menu{
+  font-size: 24px;
+  margin-top: 20px;
 }
 #email{
   width: 100%;
@@ -141,11 +182,15 @@
   margin-left: 0;
 
 }
+.endline{
+display: flex;
+margin-top: 48px;
+}
 .line{
   width: 70%;
   height: 2px;
   background:#c2efd4;
-  margin-top: 12px;
+  margin-top: 32px;
   margin-left: 70px;
 }
 
@@ -155,3 +200,149 @@
   color:#c2efd4 ;
   font-size: 20px;
 }
+
+@media (max-width:486px){
+  .logo{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color:#224f34;
+  }
+  .right-side{
+    display: inline;
+    gap: 0px;
+    
+  }
+  .routing{
+    display: inline;
+    gap: 40px;
+    margin: 40px;
+    font-size: 20px;
+    margin-right: 300px;
+    color: #224f34;
+    padding-bottom: 0px;
+  }
+  .routing li:hover{
+    background: #224f34;
+    color: #c2efd4;
+  }
+
+  .login{
+    display: inline;
+    gap:5px;
+    padding-top: 0px;
+    margin-right: 250px;
+    color: #224f34;
+  
+  }
+  .login-btn{
+    font-size: 20px;
+    border: 2px solid #224f34;
+    padding: 5px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .shortscreen{
+    font-size: 40px;
+    color: #224f34;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 120px;
+    margin-top: 40px;
+  }
+  .footermain{
+    color: #c2efd4;
+    display: inline;
+  }
+  .endline{
+    display: inline;
+    margin-top: 10px;
+    margin-left: auto;
+    }
+
+    .personal{
+      margin-left: 50px;
+      margin-top: 40px;
+    
+    }
+    .shop{
+      margin-left: 50px;
+      margin-top: 40px;
+    }
+    .company{
+      margin-left: 50px;
+      margin-top: 40px;
+    }
+    .update{
+      margin-left: 40px;
+      margin-top: 40px;
+      
+    }
+    .name{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .social{
+      font-size: 20px;
+    }
+    .icons{
+      display: flex;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .shopname{
+      font-size: 20px;
+      font-weight: bold;
+      
+    
+    }
+    .menu{
+      font-size: 12px;
+      margin-top: 20px;
+    }
+    #email{
+      width: 170px;
+      height: 5px;
+      padding: 20px;
+      padding-right: 60px;
+      margin-bottom: 20px;
+      border: 1px solid #c2efd4;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background: #224f34;
+      text-decoration: none;
+      text-align: center;;
+      font-size: 10px;
+      margin-right: 130px;
+    }
+    
+    #submit{
+      width: 50px;
+      height: 10px;
+      padding: 21px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background: #c2efd4;
+      font-size: 10px;
+      color: #224f34;
+      padding-right: 70px;
+      text-align: center;
+      margin-left: 32px;
+      
+    
+    }
+
+    .footerend{
+      margin-right: 40px;
+      margin-bottom: 40px;
+      margin-top: 20px;
+      color:#c2efd4 ;
+      font-size: 10px;
+    }
+
+ 
+  
+}
+
